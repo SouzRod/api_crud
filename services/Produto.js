@@ -1,8 +1,8 @@
 const produtos = [
     {
         id: 1,
-        nome: "Samsung Galaxy S9",
-        fabricante: "Japa lá de casa",
+        nome: "Samsung Galaxy S10",
+        fabricante: "Samsung",
         preco: 4000 
     },
     {
