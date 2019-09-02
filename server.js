@@ -14,6 +14,10 @@ app.get('/produtos/:id', controller.getProduto)
 
 app.post('/produtos', controller.postProduto)
 
+app.delete('/produtos/:id', controller.deleteProduto)
+
+app.put('/produtos/:id', controller.alterarProduto)
+
 app.listen(port, () => {
     console.log(`Server running on port ${port}`)
 })
